@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# PanckackeSwap Token Trade & Read Token balances front-end
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This backend repo has two primary golas 
+### 01 
+To read the balances of certain number of addresses for a specific chain passed to the API
+### 02
+Our goal for this repo is to achieve the trade off between two tokens to the lowest possible values through panckackeswap V2 Router in and make informed strategies about trade, liquidity and price of the tokens. 
 
-## Available Scripts
 
-In the project directory, you can run:
+<br>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Installation
 
-### `npm test`
+1. It is recommended to have some basic understanding of interaction with smart contracts through ABI making and making instances of contracts through Web3.js or ethers.js SDK:
+2. Run: `npm i` which will install the necessasry npm packges  
+3. Accept all options and let the requirements install
+4. 
+5. Make sure you are in the root `RE-DU-MM-front-end` directory. and the API in the port 3001 is running fromt the backend repo.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# .env Key Fields
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<ins>Development Key Fields</ins>
 
-### `npm run eject`
+<br>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Usage
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Option 1: Running 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Make sure you are in the `RE-DU-MM-fron-end` directory.
+2. Run `npm start` which will start running REACT application to interact with bakcend API.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+<br>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Resources
+- UNISWAP Router -https://docs.uniswap.org/protocol/reference/deployments
+- What is an ABI -https://www.quicknode.com/guides/solidity/what-is-an-abi
+- How to create instance of smartcontraact with ethers.js sdk -https://docs.ethers.io/v5/api/contract/contract/
+- Wallet instances in ethers.js SDK - https://docs.ethers.io/v5/api/signer/#Wallet-constructor
+- DecreaseLiquidity: https://docs.uniswap.org/contracts/v3/reference/periphery/NonfungiblePositionManager#decreaseliquidity
+- Collect: https://docs.uniswap.org/contracts/v3/reference/periphery/NonfungiblePositionManager#collect
 
-### Making a Progressive Web App
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Please make sure to update tests as appropriate.
+ng the pool
